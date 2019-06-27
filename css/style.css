@@ -1,0 +1,88 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	}
+
+
+
+/*==========================prehead-------------*/
+.logo{
+
+display: flex;
+
+align-items: center;
+}
+.logo img{}
+span{
+    background: black;
+    width: 60px;
+    display: inline-block;
+    height: 3px;
+}
+	.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px!importent;
+}
+	.logo a h4{
+    font-size: 15px;
+    padding: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+/*-------------------poster start---------------*/
+.over{
+	padding: 60px 0;
+}
+.over_text{}
+.over_text h1{
+	text-transform:capitalize;
+	font-weight: bold;
+	font-size: 50px;
+}
+.over_text h6{
+	padding: 10px 0;
+}
+.
+.
+
+	/*-------------------poster end---------------*/
+/*--------------------------------------------services------------------*/
+.t_kartor{}
+.t_kartor_text{
+    padding-right: 30px;
+}
+.t_kartor_text h2{
+    font-size: 30px;
+    padding: 0 40px  40px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.t_kartor_text h3{
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: large;
+}
+.t_kartor_text h6{
+    padding: 20px 0;
+    font-size: small;
+}
+.img{
+    max-width: 20vw;
+}
+.
+
+/*--------------------------------------------services------------------*/
+/*--------------------------------------------paxlar------------------*/
+/*--------------------------------------------paxlar------------------*/
+
+
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
