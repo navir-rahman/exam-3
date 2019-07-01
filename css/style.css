@@ -5,7 +5,17 @@
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
 	}
-
+.container{
+	
+}
+	html,body
+	{
+	    width: 100%;
+	    height: 100%;
+	    margin: 0px;
+	    padding: 0px;
+	    overflow-x: hidden;
+	}
 
 
 /*==========================prehead-------------*/
@@ -18,9 +28,9 @@ align-items: center;
 .logo img{}
 span{
     background: black;
-    width: 60px;
+    width: 30px;
     display: inline-block;
-    height: 3px;
+    height: 1px;
 }
 	.logo a{
     text-decoration: none;
@@ -34,6 +44,9 @@ span{
     font-weight: bold;
     margin: 0;
 }
+	.logo a h4:hover{
+		color: red;
+	}
 /*-------------------poster start---------------*/
 .over{
 	padding: 60px 0;
@@ -52,6 +65,8 @@ span{
 
 	/*-------------------poster end---------------*/
 /*--------------------------------------------services------------------*/
+
+/*------t_kartor-----*/
 .t_kartor{}
 .t_kartor_text{
     padding-right: 30px;
@@ -69,15 +84,108 @@ span{
 }
 .t_kartor_text h6{
     padding: 20px 0;
-    font-size: small;
+    font-size: medium;
 }
-.img{
-    max-width: 20vw;
+
+.t_kartor_flex{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+/*------t_kartor-----*/
+/*--------------------------------------------services------------------*/
+.clients{}
+.clients_data{}
+.das{
+	display: flex;
+	margin: auto;
+}
+.clients_data span{
+	margin: auto 0px auto 0px;
+	color: black;
+	background: black;
+	width: 30px;
+	display: inline-block;
+	height: 2px;
+}
+.clients_data h6{
+	margin-bottom: 0;
+	font-size: 13px;
+	padding: 5px;
+}
+.clients_data h6:hover{
+	color: red;
+}
+.clients_data h2{
+
+font-weight: bold;
+
+font-size: 16px;
+
+text-transform: capitalize;
+
+margin-right: 0;
+
+padding: 10px 10px 10px 0;
+
+margin: 20px 0 40px;
+}
+.clients_data ul{
+	list-style: none;
+	margin: 50px 0;
+}
+.clients_data ul li{
+	padding: 10px;
+}
+.clients_data ul :hover{
+
+
+}
+.clients_data ul li img{
+	max-width: 90px;
+}
+
+/*--------------------------------------------paxlar------------------*/
+
+
+
+
+
+
+
+.img{}
+.img_col{
+	position: relative;
+}
+.img_adult img{max-width: 100%!important;}
+.arow i{
+	border: 1px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 20px;
+	padding: 10px;
+	background: white;
+	color: black;
+}
+.arow:hover{
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+}
+.img_col h6{}
+.img_adult{
+	position: relative;
+}
+.arow{
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+	transition: all 0.4s ease;
+
 }
 .
-
-/*--------------------------------------------services------------------*/
-/*--------------------------------------------paxlar------------------*/
 /*--------------------------------------------paxlar------------------*/
 
 
@@ -85,4 +193,6 @@ span{
 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 */
